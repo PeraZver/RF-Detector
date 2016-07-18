@@ -1,0 +1,84 @@
+Run 1:  Thu Apr 28 15:57:17 2016.  SL00000.101.
+        Em version 15.53-Lite (32-bit Windows) on ATL5C9AD8E4ED89 local.
+
+  Project:  C:\Users\z003kx7y\Documents\RF Detector\RF Detector\BP filter simulation\BP Filter.son.
+
+    Frequency:  0.5 GHZ
+      Subsectioning at 1.8 GHz with Eeff of 2.75.
+      Subsectioning time:  0.515 seconds.
+      De-embedding information for left box wall port(s):
+        Left SOC Electric Wall: 17.55 mm length, 149 subsections, 3 MB.
+        Left SOC Magnetic Wall: 35.1 mm length, 143 subsections, 3 MB.
+      De-embedding information for bottom box wall port(s):
+        Bottom SOC Electric Wall: 20.3364 mm length, 160 subsections, 3 MB.
+        Bottom SOC Magnetic Wall: 40.6729 mm length, 154 subsections, 3 MB.
+      Em license feature:  emlite.
+      Circuit requires 2706 subsections and 28 MB of memory.
+
+      Subsections by level and type:
+      Level 0:
+        Staircase:  2,688
+      Ground Plane:
+        Via:        18
+
+      Required memory by type:
+        System matrix:            28 MB
+        Elemental subsections:
+          Primary structure:      4 MB
+          Left standard:          0 MB
+          Bottom standard:        0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  2 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    38 MB
+
+      Matrix solver:  internal 32-bit SSE lossless.
+      Simulation mode:  local machine.
+      Threads:  using 1 thread(s), 4 core(s) available.
+      Waveguide mode time:  0.045 seconds.
+      Fourier transform time:  0.571 seconds.
+      Coupling time:  3 seconds.
+      Loss time:  0 seconds.
+      Matrix fill time:  4 seconds.
+      Matrix solve time:  2 seconds.
+      De-embedding time for left box wall:
+        SOC Electric Wall Std: 0.137 seconds.
+        SOC Magnetic Wall Std: 0.130 seconds.
+        Total:                 0.267 seconds.
+      De-embedding time for bottom box wall:
+        SOC Electric Wall Std: 0.114 seconds.
+        SOC Magnetic Wall Std: 0.117 seconds.
+        Total:                 0.231 seconds.
+      Total time per frequency:  6 seconds.
+
+    Frequency:  1.8 GHZ
+      ABS time:  0.210 seconds.
+
+    Frequency:  0.73 GHZ
+      ABS time:  0.291 seconds.
+
+    Frequency:  0.88 GHZ
+      ABS time:  0.361 seconds.
+
+    Frequency:  0.81 GHZ
+      ABS time:  0.374 seconds.
+
+    Frequency:  1.63 GHZ
+      ABS time:  0.337 seconds.
+
+    Post-Analysis:
+      Total time for 6 frequencies:  49 seconds.
+
+Analysis completed Thu Apr 28 15:58:06 2016.
+
+
+Run 2:  Mon May 30 09:57:58 2016.  SL00000.101.
+        Em version 15.53-Lite (32-bit Windows) on ATL5C9AD8E4ED89 local.
+
+  Project:  C:\Users\z003kx7y\Documents\RF Detector\RF Detector\BP filter simulation\BP Filter.son.
+
+    Post-Analysis:
+      Total time for 0 frequencies:  0 seconds.
+
+Analysis completed Mon May 30 09:57:58 2016.
